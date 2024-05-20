@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
 }
 .icon-love {
     width: 400px;
@@ -185,9 +186,21 @@ body {
     color: dimgray;
 }
 
-#code *{
-    font-size: 20px;
+#code span{
+    font-size: 22px;
+
 }
+
+#code .last-span{
+    text-align: right;
+    width: 100%;
+    display: inline-block;
+}
+
+/*#code .text-indent{
+    display: inline-block;
+    text-indent: 2em;
+}*/
 
 /*---------------------- footer -------------------------*/
 
