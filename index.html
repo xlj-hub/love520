@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>许梦婷</title>
+
+<link rel="stylesheet" href="css/love.css">
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/typewriter.js" type="text/javascript"></script>
+
+    <!--<script type="text/javascript" src="js/jscex.min.js"></script>
+    <script type="text/javascript" src="js/jscex.min.js"></script>
+    <script type="text/javascript" src="js/jscex-parser.js"></script>
+    <script type="text/javascript" src="js/jscex-jit.js"></script>
+    <script type="text/javascript" src="js/jscex-builderbase.min.js"></script>
+    <script type="text/javascript" src="js/jscex-async.min.js"></script>
+    <script type="text/javascript" src="js/jscex-async-powerpack.min.js"></script>-->
+
+    <style>
+        .body_mid{
+            width: 520px;
+            height: 440px;
+            position: absolute;
+            left: 30%;
+            bottom: 20%;
+            }
+</style>
+<script type="text/javascript">
+		$(function(){
+		var date = new Date()/*<!--获得日期数据-->*/
+        var y = date.getFullYear();/*<!--年-->*/
+        var m = date.getMonth()+1;/*<!--月，这里的月份必须要+1才是当前月份-->*/
+        var d = date.getDate(); /*<!--日，getDay是获得当前星期几（0-6），getDate是获得当前日期-->*/
+	 var time=document.getElementById("sp")
+	 document.getElementById("sp").innerHTML = "Time："+y+"-"+m+"-"+d;
+
+		})
+
+
+</script>
+</head>
+<body>
+
+<div class="container" onselectstart="return false;" unselectable="on" style="-moz-user-select:none;">
+
+    <div class="body_left">
+        <img src="images/biubiubiu.gif" alt="" ondragstart='return false;'>
+    </div>
+
+    <div class="body_center love">
+        <div class="block">
+            <div class="div1"></div>
+            <div class="div2"></div>
+            <div class="div3"></div>
+            <div class="div4"></div>
+        </div>
+    </div>
+
+    <div class="body_mid">
+        <div id="code" style="display: none" > <font color="#FF0000"> <span class="say">亲爱的小宝宝，我爱你，虽然你看不见我对你的告白</span><br>
+            <span class="say"> </span><br>
+            <span class="say"> 我知道我不会甜言蜜语，但是我会用行动证明一切</span><br>
+            <span class="say"> </span><br>
+            <span class="say">你说我啰嗦，有些东西因为越在乎所以越失去</span><br>
+            <span class="say">因为我太爱你了，所以我失去你了</span><br>
+            <span class="say">因为我太啰嗦了，所以你离开了我</span><br>
+            <span class="say">虽然你看不见我的告白，但是我还是要把这些心里话说出来</span><br>
+            <span class="say"> </span><br>
+            <span class="say"><span class="space"></span> -- 爱你的仁希--</span> </font>
+            </p>
+        </div>
+    </div>
+
+</div>
+
+<div class="footer">
+    <div class="border">
+        <div class="border-top"></div>
+        <div class="border-bottom"></div>
+    </div>
+
+    <div class="copyright">
+        <div id="createTime"><span id="sp"></span></div>
+        <!--<div id="version"><span>weather:</span>&nbsp;阴</div>-->
+<div id="author"><span>name:&nbsp;</span>许梦婷</div>
+  </div>
+</div>
+
+<script type="text/javascript" src="js/love.js"></script>
+
+</body>
+</html>
